@@ -18,6 +18,8 @@ terraform plan
 terraform apply
 kubectl apply -f ingress.yaml
 ```
+A default Nginx welcome page will be avialable through: http://terraform.staging.nginx.exetel.com.au/
+
 ## Change log
 
 |Version|Changes|
