@@ -1,5 +1,5 @@
 ## About 
-This project utilizes terraform, kubernetes manifests to exposes an NGINX deployment on a Kubernetes cluster to an Internet-facing AWS Ingress ALB. 
+This project utilizes terraform, kubernetes manifests to expose an NGINX deployment on a Kubernetes cluster to an Internet-facing AWS Ingress ALB. 
 As this demo is for POC (Proof of Concept) only, the docker image of Nginx being used was pulled from public registry, which cannot be used in production environment.
 
 ## Pre-requisites
