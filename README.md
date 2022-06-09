@@ -3,9 +3,9 @@ This project utilizes terraform, kubernetes manifests to expose an NGINX deploym
 As this demo is for POC (Proof of Concept) only, the docker image of Nginx being used was pulled from public registry, which cannot be used in production environment.
 
 ## Pre-requisites
-Kubectl
-AWS Load Balancer Controller
-An existing Amazon EKS cluster.
+Kubectl, 
+AWS Load Balancer Controller, 
+An existing Amazon EKS cluster, 
 An existing AWS Identity and Access Management (IAM) OpenID Connect (OIDC) provider for your cluster. 
 More info at: https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
 
